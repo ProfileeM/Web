@@ -1,0 +1,10 @@
+.footer {
+  position: fixed; /* 화면에 고정시킵니다. */
+  bottom: 0; /* 화면 하단에 배치합니다. */
+  width: 100%; /* 화면 전체 너비를 차지하도록 설정합니다. */
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around; /* 요소들을 가운데 정렬하고 동일한 간격을 두어 가로 배치합니다. */
+  align-items: center; /* 수직 가운데 정렬합니다. */
+  cursor: pointer;
+}

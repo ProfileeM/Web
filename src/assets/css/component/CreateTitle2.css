@@ -1,0 +1,16 @@
+.create-title-2 {
+  display: flex;
+}
+
+.create-title-2 h3 + h3 {
+  margin-left: 5px;
+}
+
+.mbti {
+  color: #ffa300;
+}
+
+.create-title-2 > img {
+  margin-left: 10px;
+  margin-right: 10px;
+}

@@ -1,0 +1,55 @@
+.card-back {
+    background-color: #FFFAF0;
+}
+
+.card-back-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    margin-bottom: 0;
+}
+
+.card-back-intro{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-top: 0;
+    font-size: smaller;
+    margin-left: 20px;
+}
+
+.line {
+    border-bottom: 1.3px solid #FFA300;
+}
+.card-back-i{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.card-back-i > h5{
+    color: black;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.card-back-i > p {
+    margin-left: 3px;
+    font-size: smaller;
+}
+
+.left {
+    transform: scaleX(-1);
+}
+
+.card-back-bubble-container{
+    margin-top: 3px;
+    position: relative;
+    text-align: center;
+}
+
+.card-back-text{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-weight: bold;
+  }

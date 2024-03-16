@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.title-message {
+  margin-top: 100px;
+}

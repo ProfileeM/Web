@@ -1,0 +1,16 @@
+.main-more {
+    margin-top: 10vh;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.main-more > h2 {
+    margin-bottom: 50px;
+}
+
+.main-more > h3{
+    margin-left: 50px;
+    cursor: pointer;
+}

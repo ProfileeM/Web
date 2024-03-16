@@ -1,0 +1,16 @@
+.input-frame {
+  border: 1.5px solid #ffa300; /* 테두리 스타일과 색상을 설정합니다. */
+  border-radius: 20px; /* 모서리를 둥글게 만듭니다. */
+  padding: 14px; /* 내부 여백을 추가합니다. */
+  width: 70%; /* 너비를 설정합니다. */
+  outline: none; /* 입력 상자에 대한 아웃라인을 없앱니다. */
+  margin: 1%;
+}
+
+.message {
+  margin-bottom: 2px;
+  margin-left: 13%;
+  display: flex;
+  font-size: small;
+  color: gray;
+}

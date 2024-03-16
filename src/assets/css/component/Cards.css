@@ -1,0 +1,20 @@
+.swiper {
+  margin-top: 80px;
+  position: relative;
+}
+
+.swiper .swiper-pagination-bullet {
+  background-color: #ffa300;
+}
+
+.swiper .swiper-button-prev {
+  color: #ffa300;
+}
+
+.swiper .swiper-button-next {
+  color: #ffa300;
+}
+
+.card {
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@import url(setting/font.css);
+@import url(component/LoginTitle.css);
+
+.home-title {
+  background-color: #ffa300;
+  text-align: center;
+}
