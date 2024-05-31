@@ -12,7 +12,7 @@ const RedirectionPage = () => {
       try {
         const response = await axios.post(
           process.env.REACT_APP_SERVER_URL + `/user/oauth/kakao/login${code}`
-        );
+        , {withCredentials: true});
         const { name, accessToken } = response.data;
         window.sessionStorage.setItem("name", name);
         window.sessionStorage.setItem("accessToken", accessToken);
