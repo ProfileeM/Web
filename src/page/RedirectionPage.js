@@ -7,6 +7,8 @@ const RedirectionPage = () => {
   const code = window.location.search;
   const navigate = useNavigate();
 
+  console.log(code);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -16,6 +18,7 @@ const RedirectionPage = () => {
         const { name, accessToken } = response.data;
         window.sessionStorage.setItem("name", name);
         window.sessionStorage.setItem("accessToken", accessToken);
+
         // 세션 저장소가 올바르게 설정되었는지 확인
         console.log("Session storage set:", window.sessionStorage.getItem("name"), window.sessionStorage.getItem("accessToken"));
         navigate("/myprofile");
