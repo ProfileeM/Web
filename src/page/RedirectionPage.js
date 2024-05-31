@@ -12,10 +12,11 @@ const RedirectionPage = () => {
       try {
         const response = await axios.post(
           process.env.REACT_APP_SERVER_URL + `/user/oauth/kakao/login${code}`
-        , {withCredentials: true});
+        );
         const { name, accessToken } = response.data;
         window.sessionStorage.setItem("name", name);
         window.sessionStorage.setItem("accessToken", accessToken);
+        navigate("/myprofile");
       } catch (error) {
         console.error("로그인 중 에러가 발생했습니다:", error);
       }
