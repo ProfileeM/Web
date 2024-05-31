@@ -20,7 +20,6 @@ function App() {
   }, []);
 
   return (
-    <React.StrictMode>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LoginPage />} />
@@ -42,7 +41,6 @@ function App() {
           )}
         </Routes>
       </BrowserRouter>
-    </React.StrictMode>
   );
 }
 
